@@ -50,7 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@f095bcc56b7c2baf48f3ac70d6d6782f4f553222
-      - uses: richardsimko/update-tag@5bd0e05b035e02d5da3768dbdcfc4e5e0908623e
+      - uses: richardsimko/update-tag@f2d837c8756467e468d7c07fc815cafdd3207aa3
         with:
           tag_name: "24.12"
         env:
